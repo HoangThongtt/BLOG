@@ -1,0 +1,97 @@
+@media (max-width: 700px) {
+  .showcase::after {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+  }
+}
+
+.p_the {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  left: -500px;
+  top: 161px;
+  border-radius: 10px;
+}
+/* Zoom */
+.p_zoom {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  left: 300px;
+  top: 165px;
+}
+
+.p_list a {
+  text-decoration: none;
+  align-content: center;
+}
+
+a {
+  content: " ";
+  margin: 30px;
+  /* margin-left: 20px; */
+  display: inline-block;
+  text-decoration: none;
+  color: #a1a1a1;
+  width: 254px;
+  text-align: center;
+}
+
+.p_list {
+  display: flex;
+  justify-content: center;
+}
+
+.p_list li {
+  max-width: 450px;
+  overflow: hidden;
+}
+
+.p_list li a img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  bottom: 40px;
+}
+
+.p_list li .name {
+  position: relative;
+  color: var(--light-color);
+  letter-spacing: 2px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 320px;
+}
+
+.p_list li:hover img {
+  transform: scale(1.2); /* zoom lên 20% */
+  opacity: 0.9; /* mờ đi */
+}
+
+.p_list li:hover .name {
+  transform: scale(1.2); /* zoom lên 20% */
+  opacity: 0.9; /* mờ đi */
+  color: var(--dark-color);
+  z-index: 100;
+}
+
+section {
+  display: flex;
+}
+
+.Thong {
+  border-radius: 50%;
+}

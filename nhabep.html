@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="icon" type="image/x-icon" href="/img/chef.png">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="slibar.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>Smart Home - Kitchen</title>
+  <div>
+    <div class="slidershow middle">
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="./img_background/1.jpg" alt="">
+        </div>
+        <div class="slide s2">
+          <img src="./img_background/5.jpg" alt="">
+        </div>
+        <div class="slide s3">
+          <img src="./img_background/3.jpg" alt="">
+        </div>
+        <div class="slide s4">
+          <img src="./img_background/4.jpg" alt="">
+        </div>
+        <div class="slide s5">
+          <img src="./img_background/2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="link">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+      </div>
+    </div>
+
+    <body>   
+      <header>
+        <div class="nav">
+            <!-- <a href="main.html">HOME</a> -->
+            <a class="hn" href="phongkhach.html">LIVING ROOM</a>
+            <a class="hn" href="nhabep.html">KITCHEN</a>
+            <a class="hn" href="santhuong.html">TERRACE</a>
+            <!-- <div class="slidebar"></div> -->
+        </div>
+      </header>
+      
+    <body>
+      <div class="hienthi ">
+
+        <img id="background" src="./img/kitchen.jpg" alt="nhabep">
+        <div class="head_text">
+          <h4>Khu vuc</h4>
+          <h5>Kitchen</h5>
+          <h6>26-12-2003</h6>
+        </div>
+
+        <img id="power" src="./img/power.png" alt="power">
+        <div class="box2">
+          <img id="denId_02" class="card-img-top" src="./img/treo_off.png" alt="Card image" style="width:50%">
+          <div>
+            <button id="btnOnId_02">ON</button>
+            <button id="btnOffId_02">OFF</button>
+            <div class="text">Light</div>
+          </div>
+        </div>
+
+        <div class="box4">
+          <div class="text2">Gas sensor</div>
+          <h7><span id="gas_value">00%</span></h7>  
+        </div>
+
+      </div>
+
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+      <script src="nhabep.js"></script>
+      <script src="main.js"></script>
+      
+    </body>
+
+    <section class="p_the">
+      AUTHOR
+    </section>
+  
+    <section class="p_zoom">
+          <ul class="p_list">
+                <li>
+                  <div class="name">HOANG THONG</div>
+                  <a href="https://www.facebook.com/0914834524cc"><img class="Thong" src="img_background/T.jpg" alt="Hoàng Thông"></a>                 
+              </li>
+          </ul>
+    </section>
+  </html>

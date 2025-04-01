@@ -1,0 +1,84 @@
+/*  slider */
+/*  san thuong */
+.slidershow {
+  width: 91%;
+  height: 20%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.middle {
+  position: relative;
+  top: 1.25%;
+  left: 480px;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background: #fff;
+}
+
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 20%;
+  transition: e.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s2 {
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s3 {
+  margin-left: -40%;
+}
+
+#r4:checked ~ .s4 {
+  margin-left: -60%;
+}
+
+#r5:checked ~ .s5 {
+  margin-left: -80%;
+}
+
+/*  */
